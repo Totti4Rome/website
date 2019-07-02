@@ -5,9 +5,6 @@ body {
   color: #333333;
   font-size: 16px;
 }
-body {
-  padding-bottom: 60px;
-}
 ul,
 ol {
   list-style: none;
@@ -20,9 +17,35 @@ ol {
 }
 header {
   padding: 0 20px;
+  font-size: 30px;
+}
+header a {
+  text-decoration: none;
+  color: #666;
+  display: inline-block;
+  margin: 0 20px;
 }
 header img {
   width: 260px;
+}
+header span {
+  position: absolute;
+  right: 10%;
+  top: 10px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #666;
+  padding: 20px;
+}
+footer p {
+  font-size: 12px;
+}
+footer a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
 }
 .article-box {
   margin: 0 30px;
@@ -52,9 +75,9 @@ header img {
 .article-box ul li {
   border-bottom: 1px solid #dcdcdc;
   padding: 20px;
-  display: flex;
 }
 .article-box ul li a {
+  display: flex;
   text-decoration: none;
 }
 .article-box ul li img {
@@ -166,9 +189,23 @@ header img {
   h3 {
     font-size: 16px;
   }
+  header span {
+    display: block;
+    position: initial;
+  }
+  .w {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .w > ul {
+    margin: 0 !important;
+  }
+  .w .article-box {
+    position: initial;
+  }
   .index-page section.content-box > ul li h2 a {
     display: block;
     margin: 20px auto;
-    float: inherit;
+    float: initial;
   }
 }
