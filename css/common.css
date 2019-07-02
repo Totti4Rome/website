@@ -1,0 +1,174 @@
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: #333333;
+  font-size: 16px;
+}
+body {
+  padding-bottom: 60px;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+.w {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 20px;
+}
+header {
+  padding: 0 20px;
+}
+header img {
+  width: 260px;
+}
+.article-box {
+  margin: 0 30px;
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+.article-box h2 {
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+  background-color: #126aec;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+}
+.article-box ul {
+  margin: 0;
+}
+.article-box ul li {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px;
+  display: flex;
+}
+.article-box ul li a {
+  text-decoration: none;
+}
+.article-box ul li img {
+  width: 80px;
+}
+.article-box ul li p {
+  margin: 0;
+  margin-left: 15px;
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  display: block;
+}
+.index-page section.banner-box {
+  background: linear-gradient(287deg, rgba(81, 49, 180, 0.25) 0, rgba(255, 80, 138, 0.25) 56%, rgba(254, 51, 103, 0.25) 100%);
+  text-align: center;
+  padding: 30px 0;
+}
+.index-page section.content-box {
+  position: relative;
+  padding-top: 100px;
+}
+.index-page section.content-box > ul {
+  margin: 0 350px 0 0;
+}
+.index-page section.content-box > ul li {
+  overflow: hidden;
+  border: 1px solid rgba(254, 51, 103, 0.25);
+  border-radius: 10px;
+  margin: 0 auto 20px;
+  box-shadow: 1px 1px 6px 0px #fe3367;
+}
+.index-page section.content-box > ul li img {
+  display: block;
+  width: 100%;
+  background: linear-gradient(287deg, rgba(81, 49, 180, 0.25) 0, rgba(255, 80, 138, 0.25) 56%, rgba(254, 51, 103, 0.25) 100%);
+}
+.index-page section.content-box > ul li h2 {
+  font-size: 24px;
+  padding: 20px 20px 0;
+}
+.index-page section.content-box > ul li h2 a {
+  float: right;
+  width: 160px;
+  height: 42px;
+  border-radius: 60px;
+  box-shadow: 0 3px 10px 0 rgba(254, 51, 103, 0.5);
+  background-color: #fe3367;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.index-page section.content-box > ul li p {
+  padding: 20px;
+}
+.index-page section.other-box {
+  padding: 3rem 0;
+}
+.index-page section.other-box h2 {
+  text-align: center;
+}
+.index-page section.other-box > ul {
+  padding-left: 20px;
+}
+.index-page section.other-box > ul p {
+  font-size: 14px;
+}
+.reviews-page .banner {
+  width: 100%;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+.reviews-page .banner img {
+  width: 100%;
+  border-radius: 20px;
+}
+.reviews-page .banner h1 {
+  margin: 30px 0;
+}
+.reviews-page .content {
+  padding: 50px 20px;
+  position: relative;
+  background-color: #f8f8f9;
+}
+.reviews-page .content > ul {
+  margin-right: 350px;
+}
+.reviews-page .content > ul li {
+  margin-top: 20px;
+}
+.reviews-page .content > ul li ul {
+  padding-left: 20px;
+}
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .index-page section.content-box > ul li h2 a {
+    display: block;
+    margin: 20px auto;
+    float: inherit;
+  }
+}
